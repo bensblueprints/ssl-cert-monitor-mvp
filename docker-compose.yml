@@ -1,0 +1,22 @@
+services:
+  certwatch:
+    build: .
+    container_name: certwatch
+    restart: unless-stopped
+    ports:
+      - "5346:5346"
+    environment:
+      - PORT=5346
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/certwatch.db
+      - CHECK_INTERVAL_MS=${CHECK_INTERVAL_MS:-21600000}
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - certwatch-data:/app/data
+
+volumes:
+  certwatch-data:
