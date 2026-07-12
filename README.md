@@ -59,7 +59,7 @@ Node 20+ · Express · better-sqlite3 · React + Vite + Tailwind + Framer Motion
 
 ## ☕ Skip the setup — get the 1-click installer
 
-Grab the packaged version: **[https://whop.com/onetime-suite](https://whop.com/onetime-suite)** — pay once, own it forever, no subscription.
+Grab the packaged version: **[https://whop.com/benjisaiempire/certwatch](https://whop.com/benjisaiempire/certwatch)** — pay once, own it forever, no subscription.
 
 ## License
 
