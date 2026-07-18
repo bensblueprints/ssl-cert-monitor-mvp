@@ -2,7 +2,11 @@
 
 ## Demo
 
-VIDEO-PLACEHOLDER
+
+
+https://github.com/user-attachments/assets/a481faf7-b118-4449-9fe1-006ca6377e3f
+
+
 
 **SSL certificate + domain expiry monitoring you own forever. One expired cert is a 2am page — this is $24 once, not a line item on your monitoring bill.**
 
